@@ -1,6 +1,6 @@
 """testpackage"""
 
 import testpackage.one
-import testpackage.two
+from testpackage.two import *
 
 print('Doing stuff from __init__.py!')
